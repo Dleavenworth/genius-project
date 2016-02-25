@@ -12,3 +12,8 @@
   overflow: auto;
   width: 178px;
 }
+
+.middle {
+  left:178px; top:92px; right:0; bottom:0;
+  height: 200px;
+}
