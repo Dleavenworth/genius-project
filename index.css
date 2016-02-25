@@ -5,3 +5,10 @@
 .sidelist {
   padding: 5px;
 }
+
+.side {
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+  width: 178px;
+}
