@@ -1,3 +1,7 @@
 .sidebar {
   list-style-type: none;
 }
+
+.sidelist {
+  padding: 20px;
+}
