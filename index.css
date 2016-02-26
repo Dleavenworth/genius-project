@@ -4,6 +4,7 @@
 
 .sidelist {
   padding: 5px;
+  display: inline-block;
 }
 
 .left {
