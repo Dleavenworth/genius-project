@@ -14,8 +14,6 @@
         });
     });
 });*/
-var trigger = document.getElementById("trigger");
-trigger.addEventListener("click", expand)
 function expand() {
     document.getElementById("form").style.display="block"
 }
