@@ -1,6 +1,6 @@
 $(function() {
     var trigger = $('.trigger');
-    var form = $('.header-search-box');
+    var form = $('.form');
     trigger.click(function() {
         if(form.is(':hidden')) {
             form.show().focus()
