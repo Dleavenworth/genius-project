@@ -1,4 +1,4 @@
-/*$(function() {
+$(function() {
     var trigger = $('.trigger');
     var form = $('.header-search-box');
     trigger.click(function() {
@@ -13,7 +13,4 @@
             }
         });
     });
-});*/
-function expand() {
-    document.getElementById("form").style.display="block"
-}
+});
