@@ -1,4 +1,4 @@
-$(function() {
+/*$(function() {
     var trigger = $('.trigger');
     var form = $('.header-search-box');
     trigger.click(function() {
@@ -13,4 +13,9 @@ $(function() {
             }
         });
     });
-});
+});*/
+var trigger = document.getElementById("trigger");
+trigger.addEventListener("click", expand)
+function expand() {
+    document.getElementById("form").style.display="block"
+}
