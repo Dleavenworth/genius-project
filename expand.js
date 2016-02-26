@@ -1,5 +1,5 @@
 $(function() {
-    var mglass = $('.magnifying-glass');
+    var mglass = $('.trigger');
     var form = $('.header-search-box');
     mglass.click(function() {
         if (form.is(':hidden')) {
