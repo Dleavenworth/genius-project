@@ -19,11 +19,11 @@
   height: 200px;
 }
 
-#form {
+.form {
     display:none;
     width: 0px;
 }
 
-#trigger {
+.trigger {
   position: static;
 }
