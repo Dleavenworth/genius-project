@@ -21,7 +21,7 @@
 
 .form {
     display:none;
-    width: 0px;
+    width: 0;
 }
 
 .trigger {
