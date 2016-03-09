@@ -14,3 +14,10 @@ $(function() {
         });
     });
 });
+
+/* To actually get this to work you want something like:
+<div class="container row middle col">
+          <p class="trigger">Trigger</p>
+        <input class='form' type='text' id='search-string' name='search-string'>
+      </div>
+*/
