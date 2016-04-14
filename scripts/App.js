@@ -3,9 +3,9 @@ import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 window.calendarData = {};
 //require('./style.css');
-const App = react.createClass({
+const App = React.createClass ({
     render() {
-        return(
+        return (
             <div className="app">
             <Header/>
             <Sidebar/>
