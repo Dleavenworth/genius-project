@@ -1,16 +1,22 @@
 import React from 'react';
 import Header from './components/Header';
-import Sidebar from './components/Sidebar';
-window.calendarData = {};
+import Week from './components/Week';
+import Day from './components/Day';
+import Cal from './components/Cal'
+import Side from './components/Sidebar'
+window.calenderData = {};
 require('./index.css');
-const App = React.createClass ({
-    render() {
-        return (
-            <div className="app">
-            <Header/>
-            <Sidebar/>
-            </div>
-        );
-    }
+//Rendering all of the components
+const App = React.createClass({
+  render() {
+    return (
+      <div className='app'>
+        <Header/>
+        <Side/>
+        <Cal/>
+      </div>
+    );
+  }
 });
+
 export default App;
