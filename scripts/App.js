@@ -2,9 +2,9 @@ import React from 'react';
 import Header from './components/Header';
 import Week from './components/Week';
 import Day from './components/Day';
-import Cal from './components/Cal'
-import Side from './components/Sidebar'
-import Footer from './components/Footer'
+import Cal from './components/Cal';
+import Side from './components/Sidebar';
+import Footer from './components/Footer';
 window.calenderData = {};
 require('./index.css');
 //Rendering all of the components
