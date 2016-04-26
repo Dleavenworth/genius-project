@@ -7,7 +7,7 @@ export default React.createClass({
         <div className="container">
           <div className="row">
             <div className="col 16 s12">
-              <h5 className="white-text">Footer content"></h5>
+              <h5 className="white-text">Footer content</h5>
               <p className="grey-text text-lighten-4">I don't even know where this text will appear</p>
             </div>
             <div className="col 14 offset-12 s12">
